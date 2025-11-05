@@ -1,0 +1,24 @@
+@import "tailwindcss";
+:root {
+	--brand-100: #ffd5d5;
+	--brand-300: #fdaaaa;
+	--brand-500: #59ac77;
+	--brand-700: #3a6f43;
+}
+
+body {
+	@apply bg-gray-50 font-sans;
+}
+
+/* small helper */
+.btn {
+	@apply px-4 py-2 rounded-md font-medium shadow-sm focus:outline-none;
+}
+.btn-primary {
+	background: var(--brand-500);
+	color: white;
+}
+.btn-outline {
+	@apply border;
+	border-color: rgba(0, 0, 0, 0.08);
+}
